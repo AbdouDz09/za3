@@ -851,7 +851,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Abdou ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`*help | HK System`,"http://twitch.tv/abdoufersaoui_dz")
+client.user.setGame(`*help | The Nano System`,"http://twitch.tv/abdoufersaoui_dz")
 client.user.setStatus("dnd")
 });
 
@@ -1218,7 +1218,7 @@ client.on('message', message => {
 
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","≽──≼HK≽──≼"));
+    member.addRole(member.guild.roles.find("name","♋•The Nano•♋"));
     });
 
 
@@ -1231,7 +1231,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('***بكل حب واحترام وشوق نستقبلك ونتمنى لك قضآء أجمل اللحظات ولآوقات معنا***')
     .setColor('RANDOM')
     .setImage('https://cdn.discordapp.com/attachments/521419225651347464/521796154044710923/---3.gif')
-var channel = member.guild.channels.find('name', '✗𝐖𝐞𝐥𝐜𝐨𝐦𝐞')
+var channel = member.guild.channels.find('name', '😂¦¦chatting')
 if (!channel) return;
 channel.send({embed : embed});
 });
@@ -1265,7 +1265,7 @@ client.on('guildMemberAdd', msg => {
     .addField(' 👤   You Number',`**[ ${msg.guild.memberCount} ]**`,true)
     .setColor('GREEN')
     .setFooter(msg.guild.name, msg.guild.iconURL, true)
-    var channel = msg.guild.channels.find('name', 'dream')         
+    var channel = msg.guild.channels.find('name', '😂¦¦chatting')         
     if (!channel) return;
     channel.send({embed : embed});
     });
